@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split.count
+    if self.end_with?(".")
+      n_arr << self
   end
 end

@@ -18,7 +18,7 @@ class String
     n_arr = []
     self.split.each do |s|
       if s.end_with?(".")
-        n_arr << self
+        n_arr << s
       end
     end
     n_arr

@@ -17,7 +17,7 @@ class String
   def count_sentences
     n_arr = []
     self.split.each do |s|
-      if s.end_with?(".")
+      if s.end_with?(".", "?")
         n_arr << s
       end
     end

@@ -21,6 +21,6 @@ class String
         n_arr << s
       end
     end
-    n_arr
+    n_arr.length
   end
 end
